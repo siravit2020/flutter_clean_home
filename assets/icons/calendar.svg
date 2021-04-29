@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.816" height="30.649" viewBox="0 0 31.816 30.649">
+  <g id="calendar" transform="translate(0 -9.388)">
+    <path id="Path_5036" data-name="Path 5036" d="M0,180.719H31.817V159.4H0Zm23.589-18.214h3.292V165.8H23.589Zm0,5.6h3.292v3.292H23.589Zm0,5.6h3.292v3.292H23.589Zm-6.218-11.192h3.292V165.8H17.372Zm0,5.6h3.292v3.292H17.372Zm0,5.6h3.292v3.292H17.372Zm-6.218-11.192h3.292V165.8H11.154Zm0,5.6h3.292v3.292H11.154Zm0,5.6h3.292v3.292H11.154ZM4.936,162.505H8.228V165.8H4.936Zm0,5.6H8.228v3.292H4.936Zm3.292,5.6v3.292H4.936V173.7Z" transform="translate(0 -140.682)" fill="#5c4db1"/>
+    <path id="Path_5037" data-name="Path 5037" d="M31.817,39.391h-5.6v3.731H24.356V39.391H7.461v3.731H5.6V39.391H0v5.6H31.817Z" transform="translate(0 -28.138)" fill="#5c4db1"/>
+    <rect id="Rectangle_2204" data-name="Rectangle 2204" width="2" height="2" transform="translate(5.23 9.49)" fill="#5c4db1"/>
+    <rect id="Rectangle_2205" data-name="Rectangle 2205" width="1.865" height="1.865" transform="translate(24.356 9.388)" fill="#5c4db1"/>
+  </g>
+</svg>

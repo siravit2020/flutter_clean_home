@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1079439083656",
+    "project_id": "clean-home-226c1",
+    "storage_bucket": "clean-home-226c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079439083656:android:17e6e186e8eca99b12b73d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_clean_home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079439083656-1pnpjjlspj6j3r75thb3goboserqdqdo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPcHc_S90UhxMdPpG6Anl-rge9I9tvHVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079439083656-1pnpjjlspj6j3r75thb3goboserqdqdo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
