@@ -101,20 +101,24 @@ class _AccountState extends State<Account> with TickerProviderStateMixin {
                                 backgroundColor: Colors.transparent,
                               ),
                             ),
-                            Center(
-                              child: Stack(
-                                children: [
-                                  dot(cos(pi) * radius, sin(pi) * radius,
-                                      Color(0xffFFBF67)),
-                                  dot(
-                                      cos(7 * pi / 4) * radius,
-                                      sin(7 * pi / 4) * radius,
-                                      Color(0xffFF6C46)),
-                                  dot(
-                                      cos(pi / 3) * radius,
-                                      sin(pi / 3) * radius,
-                                      Color(0xff10D592)),
-                                ],
+                            RotationTransition(
+                              turns: Tween(begin: 0.0, end: 1.0)
+                                  .animate(_controller),
+                              child: Center(
+                                child: Stack(
+                                  children: [
+                                    dot(cos(pi) * radius, sin(pi) * radius,
+                                        Color(0xffFFBF67)),
+                                    dot(
+                                        cos(7 * pi / 4) * radius,
+                                        sin(7 * pi / 4) * radius,
+                                        Color(0xffFF6C46)),
+                                    dot(
+                                        cos(pi / 3) * radius,
+                                        sin(pi / 3) * radius,
+                                        Color(0xff10D592)),
+                                  ],
+                                ),
                               ),
                             ),
                           ],
