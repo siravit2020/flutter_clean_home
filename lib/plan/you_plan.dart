@@ -2,19 +2,16 @@ import 'dart:math';
 
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_clean_home/color_plate.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intl/intl.dart';
-import 'dart:math';
 
 enum Frequency { weekly, bi_weekly, monthly }
 
 class YourPlan extends StatefulWidget {
-  String routeName = "Plan";
+  final String routeName = "Plan";
   @override
   _YourPlanState createState() => _YourPlanState();
 }
@@ -84,13 +81,6 @@ class _YourPlanState extends State<YourPlan> {
                       fontSize: 25.sp,
                       fontWeight: FontWeight.bold),
                 ),
-                // Text(
-                //   ttr,
-                //   style: GoogleFonts.ubuntu(
-                //       color: Colors.black.withOpacity(0.7),
-                //       fontSize: 25.sp,
-                //       fontWeight: FontWeight.bold),
-                // ),
                 SizedBox(
                   height: 53.h,
                 ),

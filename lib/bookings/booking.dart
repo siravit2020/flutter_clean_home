@@ -1,21 +1,15 @@
-//  Copyright (c) 2019 Aleksander Woźniak
-//  Licensed under Apache License v2.0
-
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_clean_home/color_plate.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-
 import 'package:table_calendar/table_calendar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:buddhist_datetime_dateformat/buddhist_datetime_dateformat.dart';
-// Example holidays
 
 class Booking extends StatefulWidget {
-  String routeName = "Booking";
+  final String routeName = "Booking";
   @override
   _BookingState createState() => _BookingState();
 }

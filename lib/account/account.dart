@@ -12,14 +12,13 @@ import '../color_plate.dart';
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 
 class Account extends StatefulWidget {
-  String routeName = "Account";
+  final String routeName = "Account";
   @override
   _AccountState createState() => _AccountState();
 }
 
 class _AccountState extends State<Account> with TickerProviderStateMixin {
   AnimationController _controller;
-  Animation<double> _animation;
   double radius = 95.w;
   String text = '';
   bool textComplete = false;
@@ -53,10 +52,6 @@ class _AccountState extends State<Account> with TickerProviderStateMixin {
       duration: const Duration(seconds: 150),
       vsync: this,
     )..repeat(reverse: false);
-    _animation = CurvedAnimation(
-      parent: _controller,
-      curve: Curves.linear,
-    );
   }
 
   @override

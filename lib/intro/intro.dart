@@ -20,7 +20,6 @@ class _IntroState extends State<Intro> {
   String token;
   void initState() {
     super.initState();
-    //_error();
     _fcm.getToken().then((value) {
       token = value;
       print(value);

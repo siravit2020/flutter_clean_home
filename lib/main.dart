@@ -5,19 +5,14 @@ import 'package:firebase_analytics/observer.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_clean_home/account/account.dart';
-
 import 'package:flutter_clean_home/color_plate.dart';
-import 'package:flutter_clean_home/plan/you_plan.dart';
-
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_screenutil/screenutil_init.dart';
 import 'package:intl/intl.dart';
 import 'intro/intro.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:buddhist_datetime_dateformat/buddhist_datetime_dateformat.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
-bool USE_FIRESTORE_EMULATOR = false;
+
+const bool USE_FIRESTORE_EMULATOR = false;
 void main() async {
   SystemChrome.setSystemUIOverlayStyle(
       SystemUiOverlayStyle(statusBarColor: purple));
@@ -36,7 +31,7 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
-   static FirebaseAnalytics analytics = FirebaseAnalytics();
+  static FirebaseAnalytics analytics = FirebaseAnalytics();
   static FirebaseAnalyticsObserver observer =
       FirebaseAnalyticsObserver(analytics: analytics);
   @override
